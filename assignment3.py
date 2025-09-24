@@ -33,7 +33,7 @@ print("\n Retrieved B = ", C["B"])
 #q3
 from numpy import *
 A=array([[3,1,-1],[2,-2,4],[-1,1/2,-1]])
-B=array([1,-2,0])
+B=array([[1],[-2],[0]])
 X=linalg.solve(A,B)
 print("The solutions are: ", X)
 
