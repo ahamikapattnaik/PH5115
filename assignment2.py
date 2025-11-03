@@ -10,6 +10,12 @@ def is_prime(n):
     else:
         return True
 
+number = int(input("Enter positive integer: "))
+if is_prime(number) = True:
+    print(number, "is prime")
+else:
+    print(number, "is not prime")
+
 start = int(input("Enter the starting number of the range: "))
 end = int(input("Enter the ending number of the range: "))
 
