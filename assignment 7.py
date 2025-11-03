@@ -16,7 +16,7 @@ x = x[sorted_indices]
 y = y[sorted_indices]
 
 # Apply Trapezium rule
-integral = np.trapz(y, x)
+integral = np.trapezoid(y, x)
 
 # Print the result
 print("Numerical integration result (Trapezium rule):", integral)
@@ -36,7 +36,7 @@ y = data['y'].to_numpy()
 # Simpson function uses 1/3 rd rule for even intervals and 3/8 rule for odd
 I_simpson = simpson(y, x)
 
-print(f"Simpson's integration result: {I_simpson:.6f}")
+print(f"Simpson's integration result: {I_simpson:}")
 
 
 #3
